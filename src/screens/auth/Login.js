@@ -57,9 +57,9 @@ export default function ({ navigation }) {
               resizeMode="contain"
               style={{
                 height: 220,
-                width: 220,
+                width: 1000,
               }}
-              source={require("../../../assets/login.png")}
+              source={require("../../../assets/intro-bg.jpg")}
             />
           </View>
           <View
@@ -75,6 +75,7 @@ export default function ({ navigation }) {
               style={{
                 alignSelf: "center",
                 padding: 30,
+                marginTop: 30,
               }}
               size="h3"
             >
@@ -110,6 +111,7 @@ export default function ({ navigation }) {
               }}
               style={{
                 marginTop: 20,
+               
               }}
               disabled={loading}
             />

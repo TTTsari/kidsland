@@ -57,9 +57,9 @@ export default function ({ navigation }) {
               resizeMode="contain"
               style={{
                 height: 220,
-                width: 220,
+                width: 700,
               }}
-              source={require("../../../assets/register.png")}
+              source={require("../../../assets/pic.jpeg")}
             />
           </View>
           <View
@@ -76,6 +76,7 @@ export default function ({ navigation }) {
               style={{
                 alignSelf: "center",
                 padding: 30,
+                marginTop: 30,
               }}
             >
               Register
